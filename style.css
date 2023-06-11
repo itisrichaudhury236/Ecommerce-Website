@@ -563,6 +563,8 @@ footer .copyright{
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+    padding-bottom: 90px;
 }
 
 #blog .blog-img{ 
@@ -592,9 +594,23 @@ footer .copyright{
     background-color: #000;
     position: absolute;
     top: 4px;
-    right: 6px;
+    right: -60px;
 }
-
+#blog .blog-details a:hover{
+    color: #088178;
+}
+#blog .blog-details a:hover::after{
+    background-color: #088178;
+}
+#blog .blog-box h1{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 600;
+    color: #c9cbce;
+    z-index: -9;
+}
 
 
 
